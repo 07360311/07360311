@@ -1,6 +1,9 @@
 # 資料結構與演算法 習題解答 奇數題
 ## 第一章 基本概念
 ---
+
+$\qquad \quad A(m,n)=\begin{cases}\qquad \quad n+1 \qquad \qquad \quad \ \ \text{ if } \ \ m=0 \\\qquad A(m-1,1) \qquad \quad \ \ \ \text{ if } \ \ n=0 \\A(m-1,A(m,n-1)) \quad	 \text{ otherwise }\end{cases}$
+
 ---
 ### 5. Ackerman’s 函式 A(m, n) 的定義如下： <br> $\qquad \quad A(m,n)=\begin{cases}\qquad \quad n+1 \qquad \qquad \quad \ \ \text{ if } \ \ m=0 \\\qquad A(m-1,1) \qquad \quad \ \ \ \text{ if } \ \ n=0 \\A(m-1,A(m,n-1)) \quad	 \text{ otherwise }\end{cases}$ <br> 這個函式在 $m$ 和 $n$ 的值還不是很大的時候，就已成長的非常快。寫一個遞迴程序和非遞迴程序計算它。
 
